@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Ask zoxide which directory matches the query.
+ZOXIDE_RESULT=$(zoxide query $1)
+
+if [ -z "$ZOXIDE_RESULT" ]; then
+    exit 0
+fi
+
+FOLDER=$(basename $ZOXIDE_RESULT)
+
+SESSION=$(tmux list-sessions | grep $FOLDER)
+
+
+if [[ -z "${TMUX}" ]]; then
+    echo "not in tmux"
+    cd "$ZOXIDE_RESULT" && tmux new -t $1
+else
+    cd $ZOXIDE_RESULT
+    tmux new-session -d -s $1
+    tmux switch-client -t $1
+fi

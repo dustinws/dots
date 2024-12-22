@@ -1,0 +1,5 @@
+[user]
+	signingkey = 9D6A9BBE2100F1ED
+	email = dustin.stiles1@accesscfa.com
+[url "git@github.com:"]
+	insteadOf = https://github.com/

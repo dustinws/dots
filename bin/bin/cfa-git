@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git config user.email "dustin.stiles1@accesscfa.com"
+git config user.name "Dustin Stiles"
+git config commit.gpgsign true
+git config user.signingkey 1606FDE9D2274F3B
