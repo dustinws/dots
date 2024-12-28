@@ -8,11 +8,11 @@ end)
 local config = wezterm.config_builder()
 
 config.font = wezterm.font("Monofur Nerd Font Mono")
-config.font_size = 20
+config.font_size = 18
 config.line_height = 1.2
 
 config.enable_tab_bar = false
-config.window_background_opacity = 0.7
+config.window_background_opacity = 0.8
 
 config.window_decorations = "TITLE"
 

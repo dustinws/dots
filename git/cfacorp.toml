@@ -1,5 +1,5 @@
 [user]
-	signingkey = 9D6A9BBE2100F1ED
+	signingkey = 28BB3D566CE2122B
 	email = dustin.stiles1@accesscfa.com
 [url "git@github.com:"]
 	insteadOf = https://github.com/
