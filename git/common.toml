@@ -1,0 +1,6 @@
+[commit]
+    gpgsign = true
+[user]
+    name = Dustin Stiles
+[init]
+	defaultBranch = main

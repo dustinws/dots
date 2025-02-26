@@ -1,0 +1,7 @@
+path = ~/repos/dustinws/dots/git/common.toml
+
+[includeIf "gitdir:~/repos/dustinws/"]
+    path = ~/repos/dustinws/dots/git/dustinws.toml
+
+[includeIf "gitdir:~/repos/cfacorp/"]
+    path = ~/repos/duwstiles/dots/git/cfacorp.toml
