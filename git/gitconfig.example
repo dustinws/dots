@@ -9,3 +9,6 @@
 
 [url "git@github.com:"]
     insteadOf = https://github.com/
+
+[url "git@4vif5i.gitea.cloud/:"]
+    insteadOf = https://4vif5i.gitea.cloud/
